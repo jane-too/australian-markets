@@ -386,5 +386,10 @@ body {
 
 .section .prose--split p + p {
   text-indent: 0;
+  margin-top: var(--space-4);
+}
+
+.section .prose--split .col-break {
   break-before: column;
+  margin-top: 0;
 }

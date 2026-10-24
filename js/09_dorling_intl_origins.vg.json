@@ -167,7 +167,7 @@
       ],
       "mark": {
         "type": "circle",
-        "color": "#A07C0A",
+        "color": "#B38E18",
         "opacity": 0.85,
         "stroke": "#1A1A17",
         "strokeWidth": 0.8,
@@ -779,7 +779,7 @@
       "mark": {
         "type": "circle",
         "size": 748.3,
-        "fill": "#A07C0A",
+        "fill": "#B38E18",
         "opacity": 0.85,
         "stroke": "#1A1A17",
         "strokeWidth": 0.8,
@@ -818,7 +818,7 @@
       "mark": {
         "type": "circle",
         "size": 2535.8,
-        "fill": "#A07C0A",
+        "fill": "#B38E18",
         "opacity": 0.85,
         "stroke": "#1A1A17",
         "strokeWidth": 0.8,
@@ -857,7 +857,7 @@
       "mark": {
         "type": "circle",
         "size": 4353.1,
-        "fill": "#A07C0A",
+        "fill": "#B38E18",
         "opacity": 0.85,
         "stroke": "#1A1A17",
         "strokeWidth": 0.8,

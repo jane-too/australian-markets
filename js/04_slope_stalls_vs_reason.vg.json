@@ -99,7 +99,7 @@
       ],
       "mark": {
         "type": "line",
-        "color": "#A07C0A",
+        "color": "#B38E18",
         "strokeWidth": 2.5,
         "strokeCap": "round"
       },
@@ -117,7 +117,7 @@
       ],
       "mark": {
         "type": "line",
-        "color": "#A07C0A",
+        "color": "#B38E18",
         "strokeWidth": 5,
         "strokeCap": "round"
       },
@@ -131,7 +131,7 @@
       "mark": {
         "type": "circle",
         "opacity": 1,
-        "color": "#A07C0A",
+        "color": "#B38E18",
         "tooltip": {
           "expr": "datum.measure == 'share_of_stalls_pct' ? {'Trade': datum.display, 'Share of stalls': format(datum.pct, '.0f') + '%'} : {'Trade': datum.display, 'Main reason for visiting': format(datum.pct, '.0f') + '%'}"
         }
