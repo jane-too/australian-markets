@@ -9,16 +9,16 @@
   },
   "title": {
     "text": [
-      "Over the same five years South Melbourne ended 7% above where it began;",
+      "Over the same five years South Melbourne Market ended 7% above where it began;",
       "Queen Victoria Market ended slightly below"
     ],
     "subtitle": [
-      "Visitors to each market by financial year; each bar is the change from the year before.",
-      "Both series start in FY2019-20, which already contains four months of the pandemic."
+      "Visitors by financial year; each bar is the change from the year before. FY2019-20",
+      "already includes four months of the pandemic."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -26,7 +26,7 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 43,
-    "lineHeight": 26,
+    "lineHeight": 29,
     "subtitlePadding": 10
   },
   "hconcat": [

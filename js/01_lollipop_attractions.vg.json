@@ -13,14 +13,14 @@
   },
   "title": {
     "text": {
-      "expr": "'In ' + year + ', two of the three markets ranked ' + {'2014': 'first', '2015': 'first or second', '2016': 'first or second', '2017': 'first or second', '2018': 'first or second', '2019': 'first or second', '2023': 'first or second', '2024': 'first or second', '2025': 'first or second'}[year] + ' in their state; Sydney’s ranked ' + {'2014': '15th', '2015': '10th', '2016': '10th', '2017': '11th', '2018': '11th', '2019': '12th', '2023': '15th', '2024': '12th', '2025': '13th'}[year]"
+      "expr": "['In ' + year + ', two of the three markets ranked ' + {'2014': 'first', '2015': 'first or second', '2016': 'first or second', '2017': 'first or second', '2018': 'first or second', '2019': 'first or second', '2023': 'first or second', '2024': 'first or second', '2025': 'first or second'}[year] + ' in their state;', 'Sydney Fish Market ranked ' + {'2014': '15th', '2015': '10th', '2016': '10th', '2017': '11th', '2018': '11th', '2019': '12th', '2023': '15th', '2024': '12th', '2025': '13th'}[year]]"
     },
     "subtitle": {
-      "expr": "[\"International visitors who went to each attraction in \" + year + \". Counts are people, not visits: someone who\", \"went three times during their trip is counted once. Each state is ranked against its own attractions only, and\", \"the three scales differ, so the panels say where a market sits at home, not how the three markets compare.\"]"
+      "expr": "[\"International visitors to each attraction in \" + year + \", each person counted once. Each\", \"state is ranked on its own scale, so compare positions, not lengths.\"]"
     },
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -28,7 +28,8 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 42,
-    "subtitlePadding": 10
+    "subtitlePadding": 10,
+    "lineHeight": 29
   },
   "spacing": 150,
   "bounds": "flush",

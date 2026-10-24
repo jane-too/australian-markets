@@ -10,13 +10,12 @@
   "title": {
     "text": "Six years apart, the market’s week keeps the same shape",
     "subtitle": [
-      "Each clock is one day of the week, and each bar is the percentage of that day’s pedestrians, counted at the",
-      "market’s Therry Street sensor, who passed during that hour. Shaded is 20 October 2025 to 19 October 2026;",
-      "outlined is 2019. Rings mark 5% and 10% of the day’s count; hours run clockwise from midnight at the top."
+      "One clock per day at Queen Victoria Market’s Therry Street sensor; each bar is an",
+      "hour’s share of the day. Shaded 2025–26, outlined 2019; rings mark 5% and 10%."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -24,7 +23,8 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 42,
-    "subtitlePadding": 10
+    "subtitlePadding": 10,
+    "lineHeight": 29
   },
   "params": [
     {

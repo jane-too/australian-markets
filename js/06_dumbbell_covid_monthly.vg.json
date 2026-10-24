@@ -1,20 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#F7F4EE",
-  "width": 699,
+  "width": 852,
   "height": {
-    "step": 100
+    "step": 115
   },
   "padding": 5,
   "title": {
-    "text": "The market and the city centre emptied together, then came apart",
+    "text": "Queen Victoria Market’s streets and the city centre emptied together, then came apart",
     "subtitle": [
-      "Change in foot traffic in each month of 2020 against the same month a year",
-      "earlier. Gaps between the two sensor series are given in percentage points."
+      "Change in foot traffic in each month of 2020 against the same month a year earlier.",
+      "Gaps between the two sensor series are given in percentage points."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -22,7 +22,8 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 42,
-    "subtitlePadding": 10
+    "subtitlePadding": 10,
+    "lineHeight": 29
   },
   "encoding": {
     "y": {
@@ -325,7 +326,7 @@
         "stroke": "#A39C8E",
         "strokeWidth": 1,
         "xOffset": 6,
-        "x2Offset": 292.96,
+        "x2Offset": 0,
         "yOffset": 0.0,
         "y2Offset": 62.2
       },
@@ -342,7 +343,7 @@
           "title": null
         },
         "x2": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -383,14 +384,14 @@
         "stroke": "#DFD9CC",
         "strokeWidth": 1,
         "cornerRadius": 2,
-        "xOffset": 292.96,
-        "x2Offset": 553.96,
+        "xOffset": 0,
+        "x2Offset": 273.04,
         "yOffset": 35.7,
         "y2Offset": 88.7
       },
       "encoding": {
         "x": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -401,7 +402,7 @@
           "title": null
         },
         "x2": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -445,16 +446,16 @@
         "fontWeight": 400,
         "color": "#2E2A24",
         "lineHeight": 18,
-        "dx": 306.96,
+        "dx": 14.0,
         "dy": 46.7,
         "text": [
-          "In March, the market and the city centre",
-          "fell together, three points apart."
+          "In March, the market’s streets and the",
+          "city centre fell together, three points apart."
         ]
       },
       "encoding": {
         "x": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -491,9 +492,9 @@
         "stroke": "#A39C8E",
         "strokeWidth": 1,
         "xOffset": 6,
-        "x2Offset": 402.4,
+        "x2Offset": 0,
         "yOffset": 0.0,
-        "y2Offset": 54.1
+        "y2Offset": 68.1
       },
       "encoding": {
         "x": {
@@ -508,7 +509,7 @@
           "title": null
         },
         "x2": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -549,14 +550,14 @@
         "stroke": "#DFD9CC",
         "strokeWidth": 1,
         "cornerRadius": 2,
-        "xOffset": 402.4,
-        "x2Offset": 598.4,
-        "yOffset": 27.6,
-        "y2Offset": 80.6
+        "xOffset": 0,
+        "x2Offset": 196.0,
+        "yOffset": 41.6,
+        "y2Offset": 94.6
       },
       "encoding": {
         "x": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -567,7 +568,7 @@
           "title": null
         },
         "x2": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [
@@ -611,8 +612,8 @@
         "fontWeight": 400,
         "color": "#2E2A24",
         "lineHeight": 18,
-        "dx": 416.4,
-        "dy": 38.6,
+        "dx": 14.0,
+        "dy": 52.6,
         "text": [
           "By May, the gap had widened",
           "to twenty-eight points."
@@ -620,7 +621,7 @@
       },
       "encoding": {
         "x": {
-          "field": "pct_change",
+          "datum": -15,
           "type": "quantitative",
           "scale": {
             "domain": [

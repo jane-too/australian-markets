@@ -50,7 +50,7 @@
 
   --size-title: clamp(2.1rem, 1.4rem + 2.6vw, 3.25rem);
   --size-section: clamp(1.5rem, 1.2rem + 1.1vw, 1.95rem);
-  --size-standfirst: 1.19rem;
+  --size-standfirst: 1.25rem;
   --size-body: 1rem;
   --size-small: 0.875rem;
   --size-source: 0.8125rem;
@@ -161,11 +161,12 @@ body {
 
 .prose {
   columns: 2;
-  column-gap: var(--space-7);
+  column-gap: var(--space-8);
 }
 
 .prose p {
   max-width: none;
+  font-size: 1.125rem;
 }
 
 .section .prose p + p {
@@ -184,6 +185,12 @@ body {
 
 .vis-container {
   width: 100%;
+}
+
+.figure .vis-container.vega-embed {
+  margin-left: -5px;
+  width: calc(100% + 5px);
+  max-width: calc(100% + 5px);
 }
 
 .vis-container,
@@ -279,7 +286,7 @@ body {
   font-family: var(--font-label);
   font-size: var(--size-source);
   color: var(--ink-soft);
-  max-width: var(--measure);
+  max-width: calc(50% - var(--space-8) / 2);
   margin: var(--space-6) 0 0;
 }
 
@@ -331,7 +338,7 @@ body {
 .colophon__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: var(--space-7);
+  column-gap: var(--space-8);
 }
 
 .colophon p {

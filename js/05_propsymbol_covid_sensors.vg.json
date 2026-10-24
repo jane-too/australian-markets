@@ -9,12 +9,12 @@
       "against only a third across the rest of the city centre"
     ],
     "subtitle": [
-      "People counted by the City of Melbourne’s pedestrian sensors, March to June 2020, as a",
-      "share of the same months of 2019. The larger the circle, the more of its 2019 crowd remained."
+      "Pedestrians counted March to June 2020 as a share of the same months of 2019.",
+      "The larger the circle, the more of its crowd remained."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -22,7 +22,7 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 42,
-    "lineHeight": 26,
+    "lineHeight": 29,
     "subtitlePadding": 10
   },
   "projection": {
@@ -349,7 +349,7 @@
           "filter": "datum.sensor_name == 'QVM-Therry St (South)'"
         },
         {
-          "calculate": "split('QVM-Therry St (South),|62% of its 2019 pedestrian count.', '|')",
+          "calculate": "split('Therry St (South), beside the market,|62% of its 2019 pedestrian count.', '|')",
           "as": "t"
         }
       ],

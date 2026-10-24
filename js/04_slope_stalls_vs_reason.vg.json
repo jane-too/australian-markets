@@ -12,12 +12,12 @@
   "title": {
     "text": "The trade that fills the most stalls is the main draw for only 6% of visitors",
     "subtitle": [
-      "Each trade’s share of South Melbourne Market’s 150 permanent stalls, against the share of visitors who",
-      "name it as their main reason for coming. All six figures are from the market’s strategic plan, published in 2026."
+      "Each trade’s share of South Melbourne Market’s stalls, against the share of visitors",
+      "who come mainly for it. Both from the market’s 2026 plan."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -25,7 +25,8 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 38,
-    "subtitlePadding": 10
+    "subtitlePadding": 10,
+    "lineHeight": 29
   },
   "data": {
     "url": "data/smm_stalls_vs_reason.csv",

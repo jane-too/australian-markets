@@ -12,13 +12,12 @@
   "title": {
     "text": "Merchandise fills half the market, and groceries and eateries share the rest",
     "subtitle": [
-      "Each panel is all 150 permanent stalls at South Melbourne Market in 2024-25, one square per stall, with one trade",
-      "filled in. The five SO:ME Space stalls are left out because that space is a rotating pop-up rather than permanent trading",
-      "space. Categories follow the market’s own published scheme, in which services are counted with general merchandise."
+      "All 150 permanent stalls at South Melbourne Market in 2024-25, one square per",
+      "stall. Pop-ups are excluded; services count as merchandise."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -26,7 +25,8 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 40,
-    "subtitlePadding": 10
+    "subtitlePadding": 10,
+    "lineHeight": 29
   },
   "data": {
     "url": "data/stall_mix.csv",

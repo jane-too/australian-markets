@@ -12,14 +12,12 @@
   "title": {
     "text": "Markets draw a steady slice of day trips, wherever you are",
     "subtitle": [
-      "Share of domestic day trips that included going to a market, 2022 to 2024 combined. Shares rather than",
-      "trip counts, so a small state is not penalised for being small. Each share is a survey estimate, and some rest",
-      "on few responses: Tasmania 51, South Australia 70, Western Australia 104, against the survey’s minimum",
-      "of 40. The gaps between states are small enough that a different survey sample could reorder them."
+      "Share of day trips that included a market, 2022–24 combined. Some states rest on",
+      "few survey responses: Tasmania’s on 51, against a minimum of 40."
     ],
     "anchor": "start",
     "font": "Fraunces",
-    "fontSize": 20,
+    "fontSize": 22,
     "fontWeight": 600,
     "color": "#1A1A17",
     "subtitleFont": "Archivo",
@@ -27,7 +25,8 @@
     "subtitleColor": "#6B675F",
     "subtitleLineHeight": 20,
     "offset": 41,
-    "subtitlePadding": 10
+    "subtitlePadding": 10,
+    "lineHeight": 29
   },
   "projection": {
     "type": "conicEqualArea",
